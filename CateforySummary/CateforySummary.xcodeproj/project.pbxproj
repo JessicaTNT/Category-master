@@ -26,6 +26,8 @@
 		4F9012112046925500FF7716 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9012022046925500FF7716 /* NSDate+Category.m */; };
 		4F9012122046925500FF7716 /* NSString+Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9012052046925500FF7716 /* NSString+Models.m */; };
 		4F9012132046925500FF7716 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9012082046925500FF7716 /* NSString+MD5.m */; };
+		4FC0A830204D2782009F2CD8 /* UIView+HandyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0A82D204D2782009F2CD8 /* UIView+HandyAutoLayout.m */; };
+		4FC0A831204D2782009F2CD8 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0A82F204D2782009F2CD8 /* UIView+LayoutMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,10 @@
 		4F9012052046925500FF7716 /* NSString+Models.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Models.m"; sourceTree = "<group>"; };
 		4F9012072046925500FF7716 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		4F9012082046925500FF7716 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		4FC0A82C204D2782009F2CD8 /* UIView+HandyAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyAutoLayout.h"; sourceTree = "<group>"; };
+		4FC0A82D204D2782009F2CD8 /* UIView+HandyAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HandyAutoLayout.m"; sourceTree = "<group>"; };
+		4FC0A82E204D2782009F2CD8 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		4FC0A82F204D2782009F2CD8 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		4F9011B62046923900FF7716 /* CateforySummary */ = {
 			isa = PBXGroup;
 			children = (
+				4FC0A82B204D2782009F2CD8 /* 布局相关 */,
 				4F9011F72046925400FF7716 /* 处理html转义字符 */,
 				4F9012032046925500FF7716 /* 获取设备型号 */,
 				4F9011FA2046925400FF7716 /* 获取Mac地址 */,
@@ -265,6 +272,17 @@
 				4F9012082046925500FF7716 /* NSString+MD5.m */,
 			);
 			path = "MD5加解密";
+			sourceTree = "<group>";
+		};
+		4FC0A82B204D2782009F2CD8 /* 布局相关 */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0A82C204D2782009F2CD8 /* UIView+HandyAutoLayout.h */,
+				4FC0A82D204D2782009F2CD8 /* UIView+HandyAutoLayout.m */,
+				4FC0A82E204D2782009F2CD8 /* UIView+LayoutMethods.h */,
+				4FC0A82F204D2782009F2CD8 /* UIView+LayoutMethods.m */,
+			);
+			path = "布局相关";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +425,7 @@
 				4F90120B2046925500FF7716 /* NSString+ContainChinese.m in Sources */,
 				4F90120F2046925500FF7716 /* UIDevice+IdentifierAddition.m in Sources */,
 				4F9012132046925500FF7716 /* NSString+MD5.m in Sources */,
+				4FC0A831204D2782009F2CD8 /* UIView+LayoutMethods.m in Sources */,
 				4F90120E2046925500FF7716 /* NSString+Utils.m in Sources */,
 				4F9012122046925500FF7716 /* NSString+Models.m in Sources */,
 				4F9012092046925500FF7716 /* NSString+MobileNum.m in Sources */,
@@ -414,6 +433,7 @@
 				4F90120D2046925500FF7716 /* UIColor+Hex.m in Sources */,
 				4F9011B92046923900FF7716 /* AppDelegate.m in Sources */,
 				4F90120A2046925500FF7716 /* NSString+PwdSafe.m in Sources */,
+				4FC0A830204D2782009F2CD8 /* UIView+HandyAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
